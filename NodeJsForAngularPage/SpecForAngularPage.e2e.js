@@ -89,7 +89,7 @@ describe('angular docs page', function () {
         });
 });
 
-/* describe('angular docs page', function () {
+xdescribe('angular docs page', function () {
     it('should redirect to Angular Blog page', async function () {
 
         var menuLinkToBlog = element(by.css('body > aio-shell > mat-toolbar > mat-toolbar-row.mat-toolbar-row > aio-top-menu > ul > li.ng-star-inserted >  a.nav-link[title="Blog"]'));
@@ -99,7 +99,7 @@ describe('angular docs page', function () {
         await footerLink.click();
         expect(await browser.getCurrentUrl()).toEqual('https://blog.angular.io/about');
     });
-}); */
+});
 
 describe('angular docs page', function () {
     it('should open The fundamentals of Angular item of left menu', async function () {
