@@ -10,7 +10,7 @@ describe('angular docs page', function () {
 
     });
 });
-describe('angular docs page', function () {
+xdescribe('angular docs page', function () {
     it('should search text "api" on site', async function () {
 
         var el = element(by.css('aio-search-box.search-container'));
