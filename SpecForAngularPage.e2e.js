@@ -3,7 +3,7 @@ beforeEach(async function () {
     await browser.get('http://angular.io/docs');
 });
 
-describe('angular docs page', function () {
+xdescribe('angular docs page', function () {
     it('should verify if feedback is displayed', async function () {
         expect(await element(by.css('h1.no-toc')).getText()).toEqual('What is Angular?');
         expect(await element(by.id('feedback')).getText()).toEqual('Feedback');
