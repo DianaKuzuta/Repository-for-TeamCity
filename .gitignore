@@ -1,6 +1,9 @@
 # IDE
 .idea
 
+# Reports
+allure-results/
+
 # Logs
 logs
 *.log
