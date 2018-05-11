@@ -3,6 +3,8 @@
 
 # Reports
 allure-results/
+allure-report
+
 
 # Logs
 logs
